@@ -1,0 +1,23 @@
+
+Request Headers
+
+User-Agent: PostmanRuntime/10.8.7   //version of postman 
+Accept: */*                         //accepts any data
+Host: www.googleapis.com               // source of information
+Accept-Encoding: gzip, deflate, br     //formats to compress data
+Connection: keep-alive           //TCP connection for HTTP requests
+
+Response Headers
+
+Content-Type: application/json; charset=UTF-8          //A string along the file indicating that uses json
+Vary: Origin                       //How will future requests be matched.
+Vary: X-Origin                   //Extension 
+Vary: Referer                   //Parts of the request message
+Content-Encoding: gzip             //File format to compress HTTP content before it's served to a client
+Date: Sunday, 29 Jan 2022 14:17:55 GMT            //Date of creatiom
+Server: ESF                         // External Security 
+Cache-Control: private             //Resource is specific to the user
+X-XSS-Protection: 0               // Prevents pages from loading when encountering cross-site scripting attacks
+X-Frame-Options: SAMEORIGIN        //Page can only be embedded on a page with the same origin
+X-Content-Type-Options: nosniff     //Prevents mime based attacks
+Transfer-Encoding: chunked              //Data is divided and sent in chunks
